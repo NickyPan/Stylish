@@ -9,9 +9,9 @@ Stylish for some websites, mostly are based on Material Design.
 
    为您的浏览器（Chrome或者Firefox，或者其他可以安装插件的浏览器）安装 [stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) 或者 [stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) 插件（个人推荐stylus）
 
-2. Click the link to install stylish  from following [websites' list](#Websites).
+2. Click the link to install stylish  from following [websites' list](#websites).
 
-   在下方[网站列表](#Websites)中点击链接进入安装
+   在下方[网站列表](#websites)中点击链接进入安装
 
 3. Open website which have been installed stylish and enjoy the new look.
 
@@ -31,4 +31,4 @@ Stylish for some websites, mostly are based on Material Design.
 4. smzdm - 什么值得买-张大妈购物优惠  [Download 点击下载](https://userstyles.org/styles/152472/smzdm)
 
 ### License
-[![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/NickyPan/Stylish/blob/master/LICENSE)
