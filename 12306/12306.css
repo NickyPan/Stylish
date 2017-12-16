@@ -1,8 +1,14 @@
 @-moz-document url-prefix("http://kyfw.12306.cn"),
 url-prefix("http://kyfw.12306.cn") {
+  body {
+    background-color: #f9f9f9;
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  }
+
   .header {
-    background: #f5f5f5;
+    background: #fff;
     height: 42px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
 
   .header-bd {
@@ -24,6 +30,7 @@ url-prefix("http://kyfw.12306.cn") {
 
   .login-info {
     order: 2;
+    margin-bottom: 6px;
   }
 
   .nav {
@@ -95,5 +102,69 @@ url-prefix("http://kyfw.12306.cn") {
     border-left: none;
     padding-left: 8px;
     font-weight: 500;
+  }
+
+  .notice {
+    position: relative;
+    padding: 12px;
+    border-radius: 0 0 2px 2px;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: none;
+    left: 0;
+  }
+
+  .ban-area {
+    overflow: visible;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    background-color: #fff3e0 !important;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    height: auto;
+    margin-top: 16px;
+  }
+
+  .notice .i-close {
+    top: 15px;
+  }
+  /* main */
+  .content {
+    width: 1000px;
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .layout,
+  .slideTxt {
+    border: none;
+    position: relative;
+    background: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .layout .lay-bd {
+    background: transparent;
+    border-top: none;
+  }
+
+  .layout .lay-hd {
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    color: rgba(0, 0, 0, .87);
+    height: auto;
+    line-height: inherit;
+    padding: 8px;
+  }
+
+  .layout.booking {
+    background: #03a9f4 !important;
+    color: #fff !important;
   }
 }
