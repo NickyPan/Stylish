@@ -84,6 +84,8 @@ domain("xiazai003.com") {
     height: 40px;
     line-height: 40px;
     font-size: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
   }
 
   .middle-box .box,
@@ -93,6 +95,24 @@ domain("xiazai003.com") {
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     border-radius: 2px;
+    margin-bottom: 12px;
+  }
+
+  .today-play .box,
+  .box.out-resource {
+    margin: 0;
+  }
+
+  .today-play .jobs-hr {
+    margin-top: 8px;
+  }
+
+  .today-play .jobs-hr {
+    height: 157px;
+  }
+
+  .friendlinks {
+    margin-top: 0;
   }
 
   .resource-imgs .box {
@@ -159,7 +179,7 @@ domain("xiazai003.com") {
     padding: 0;
   }
 
-  ul + .tab-content .tab-pane {
+  ul+.tab-content .tab-pane {
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     border-radius: 2px;
