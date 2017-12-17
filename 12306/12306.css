@@ -379,11 +379,14 @@ url-prefix("http://kyfw.12306.cn/otn/") {
     height: 464px;
   }
 
-  .slideTxt .hd ul {
+  .slideTxt .hd ul,
+  .AbcSearch ul {
     display: table-row;
   }
 
-  .slideTxt .hd ul li {
+  .slideTxt .hd ul li,
+  .AbcSearch li,
+  .AbcSearch .action {
     background: none;
     color: rgba(0, 0, 0, 0.54);
     height: 42px;
@@ -394,11 +397,13 @@ url-prefix("http://kyfw.12306.cn/otn/") {
   }
 
   .slideTxt .hd,
-  .slideTxt .hd ul {
+  .slideTxt .hd ul,
+  .AbcSearch {
     height: auto;
   }
 
-  .slideTxt .hd ul li.on span {
+  .slideTxt .hd ul li.on span,
+  .AbcSearch .action {
     background: none;
     border-radius: 0;
     -moz-border-radius: 0;
@@ -417,7 +422,8 @@ url-prefix("http://kyfw.12306.cn/otn/") {
     ;
   }
 
-  .slideTxt .hd ul li.on {
+  .slideTxt .hd ul li.on,
+  .AbcSearch .action {
     border-bottom: 2px solid rgba(0, 0, 0, 0.87);
     height: 42px;
     color: rgba(0, 0, 0, 0.87);
@@ -429,6 +435,70 @@ url-prefix("http://kyfw.12306.cn/otn/") {
 
   .slideTxt .bd ul {
     padding: 16px 0;
+  }
+
+  .com_hotresults {
+    border-radius: 2px;
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+  }
+
+  .com_hotresults .ac_title {
+    padding: 8px 16px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .AbcSearch {
+    border-bottom: none;
+    background: none;
+  }
+
+  .AbcSearch .action,
+  .AbcSearch li {
+    height: 30px;
+  }
+
+  #form_cities {
+    -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 170px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 32px);
+    margin: 0;
+    padding: 0;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    border-radius: 2px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    will-change: transform, opacity;
+    border: none;
+  }
+
+  #top_cities {
+    ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 8px;
+  }
+
+  #panel_cities {
+    HEIGHT: 230px;
+  }
+
+  #panel_cities DIV {
+    padding: 8px;
+  }
+
+  .citylineover {
+    BORDER-TOP: none;
+    BORDER-BOTTOM: none;
+    background-color: rgba(153, 153, 153, 0.2) !important;
   }
 
   /* footer */
